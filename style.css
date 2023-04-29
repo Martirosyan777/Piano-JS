@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 35px 40px;
+    border-radius: 10px;
+    background: #141414;
+}
+
+.we-prod {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.piano-keys {
+    display: flex;
+    margin-top: 20px;
+}
+
+.piano-keys .key {
+    cursor: pointer;
+}
+
+.piano-keys .black {
+    z-index: 1;
+    width: 44px;
+    height: 155px;
+    margin: 0 -22px 0 -22px;
+    border-radius: 0 0 5px 5px;
+    background-color: #000000;
+}
+
+.piano-keys .black:active {
+    background-color: #272727;
+}
+
+.piano-keys .white {
+    height: 270px;
+    width: 70px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.piano-keys .white:active {
+    background-color: rgb(209, 206, 206);
+}
